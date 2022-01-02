@@ -23,5 +23,6 @@ public class Server {
     private String memory;
     private String type;
     private String imgUrl;
+    @Enumerated(EnumType.STRING)
     private Status status;
 }
